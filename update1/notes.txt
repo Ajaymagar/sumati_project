@@ -1,0 +1,26 @@
+hardware and software needed for project 
+lets start with hardware we are using raspi/jetson nano they are main processer of the project
+ rapi control the all the things in project 
+pi camera which which support raspi and use for oberservation and video call 
+for body of the project we using readymade robot body kit it has fixed motars 
+and speaker for audio brodcasting and microphone for videocall 
+
+
+now software part 
+for webapp  we are using python flask framework which is backbone of webpage 
+for image processing part we are usinng python-opencv lib it helps us to detect face and pre-trained model for detecting 
+mask which trained using Tensorflow 
+socket.io is made in javascript for video call which helps to connect with another client on internet its a peer to peer 
+connection webrtc for accessing camera and microphone of device 
+database for storing the doctors info , id , database is also needed for authentication 
+
+
+work completed till now 
+
+we made a webapplication name called roboCar it has window where we can see the camera footage and person is wearing
+a mask or not and some buttons to control the robo movement and a audio brodcast button to brodcast audio 
+
+videocall explanation --- 
+ 
+ 
+

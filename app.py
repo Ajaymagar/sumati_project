@@ -11,7 +11,7 @@ face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 while True:
 	ret , frame = cap.read()       # cap return the  two values ret and frame ret contains tha matrix and frame contain tha frames
 	
-	gray_color = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)   #here we convert the color img in gray image for better op 
+	gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)   #here we convert the color img in gray image for better op 
 														# in colour image there are 3 channels and in grey thre are only 1 
 	
 	faces_in_image = face_cascade.detectMultiScale(gray_color, 1.3, 5)   # scaleFactor: Parameter specifying how much the image size is reduced at each image scale.
