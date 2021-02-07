@@ -6,22 +6,11 @@ app = Flask(__name__)
 video = cv2.VideoCapture(0)
 
 face_cascade  = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
-#maskNet = load_model('')
+
 @app.route('/')
 def index():
     return render_template('index.html')
-'''
-def detectAndPredict():
-    locs = []
-    faces = []
-    preds = []
-    faces_in_image = face_cascade.detectMultiScale(frame , 1.3 ,5)
-    for (x , y , w,h) in faces_in_image:
-        locs.append(())
-    preds = maskNet.predict(faces)
 
-    return (locs , pred)
-'''
 def gen(video):
     while True:
         success, image = video.read()

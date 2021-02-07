@@ -1,3 +1,19 @@
+
+
+
+good afternoon everyone myself ajay out project topic is "robocar" and my team is Aishwray Aditya , omkar naik 
+
+we are working under prof padmaja bangde 
+
+
+aditya you can start 
+
+
+
+
+
+
+
 hardware and software needed for project 
 lets start with hardware we are using raspi/jetson nano they are main processer of the project
  rapi control the all the things in project 
@@ -19,8 +35,15 @@ work completed till now
 
 we made a webapplication name called roboCar it has window where we can see the camera footage and person is wearing
 a mask or not and some buttons to control the robo movement and a audio brodcast button to brodcast audio 
+and a range input slider to control the angle of camera
+
 
 videocall explanation --- 
  
+we made a seperate application for video call which use webrtc protocol its a peer to peer connection which use udp protocol to 
+transfer media to the another browser via webscoket , websocket is only use for transfering sdp to another peer 
+ 
+
+
  
 
