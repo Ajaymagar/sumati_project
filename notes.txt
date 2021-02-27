@@ -1,0 +1,13 @@
+
+raspi is an open source credit card sized computer with 40 open gpio pins.
+"General Purpose Input/Output", which means these pins can either send electrical signals to drive hardware or receive them 
+and read sensor data. We're using them as outputs, to send signals to a servo motor. Nothing special.
+
+
+A servo motor is a type of DC motor that, upon receiving a signal of a certain frequency, can rotate itself to any angle from 0-180 degrees. 
+Its 90 degree position is generally referred to as 'neutral' position,
+ because it can rotate equally in either direction from that point.
+
+https://www.instructables.com/Servo-Motor-Control-With-Raspberry-Pi/
+
+https://makersportal.com/blog/2020/3/21/raspberry-pi-servo-panning-camera
